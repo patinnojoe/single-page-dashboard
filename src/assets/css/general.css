@@ -1,0 +1,147 @@
+/* 
+
+⭐ GENERAL.CSS  ⭐
+
+This contains app styles that will reflect everywhere in the application
+It includes utility/custom classes, css variables & global resets.
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  /* COLORS */
+  --black: #000;
+  --white: #fff;
+  --text-white-alt: #e6e6e6bd;
+  --text-white: #fff;
+  --primary: #101010;
+  --bg-white-alt: #fafafa;
+  --border-color-alt: #bdbdbd;
+  --danger: #d12121;
+
+  /* FONT SIZES */
+  --font-05: 0.3125rem;
+  --font-06: 0.375rem;
+  --font-07: 0.4375rem;
+  --font-08: 0.5rem;
+  --font-09: 0.5625rem;
+  --font-10: 0.625rem;
+  --font-11: 0.6875rem;
+  --font-12: 0.75rem;
+  --font-13: 0.8125rem;
+  --font-14: 0.875rem;
+  --font-15: 0.9375rem;
+  --font-16: 1rem;
+  --font-17: 1.0625rem;
+  --font-18: 1.125rem;
+  --font-19: 1.1875rem;
+  --font-19: 1.1875rem;
+  --font-20: 1.25rem;
+  --font-21: 1.3125rem;
+  --font-22: 1.375rem;
+  --font-23: 1.4375rem;
+  --font-24: 1.5rem;
+  --font-25: 1.5625rem;
+  --font-26: 1.625rem;
+  --font-27: 1.6875rem;
+  --font-28: 1.75rem;
+  --font-29: 1.8125rem;
+  --font-30: 1.875rem;
+  --font-31: 1.9375rem;
+  --font-32: 2rem;
+  --font-33: 2.0625rem;
+  --font-34: 2.125rem;
+  --font-35: 2.1875rem;
+  --font-36: 2.25rem;
+  --font-37: 2.3125rem;
+  --font-38: 2.375rem;
+  --font-39: 2.4375rem;
+  --font-40: 2.5rem;
+  --font-41: 2.5625rem;
+  --font-42: 2.625rem;
+  --font-43: 2.6875rem;
+  --font-44: 2.75rem;
+  --font-45: 2.8125rem;
+  --font-46: 2.875rem;
+  --font-47: 2.9375rem;
+  --font-48: 3rem;
+  --font-49: 3.0625rem;
+  --font-50: 3.125rem;
+
+  /* Other Values */
+  --header-height: 70px;
+}
+
+::selection {
+  background: #ff6b9640; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ff6b9640; /* Gecko Browsers */
+}
+
+body:has(.app-main),
+body:has(.app-editor) {
+  background-color: rgba(240, 244, 249, 1);
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+mark,
+small,
+strong,
+header,
+a,
+ul,
+nav,
+header,
+li,
+button,
+span {
+  padding: 0;
+  margin: 0;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+input[type='color'],
+input[type='radio'],
+input[type='checkbox'],
+input[type='file'] {
+  cursor: pointer;
+}
+
+.text-white-alt {
+  color: var(--text-white-alt);
+}
