@@ -6,7 +6,7 @@ import { SidebarWrapper } from '../styleWrappers';
 import { RiMenuLine, RiCloseLargeFill } from 'react-icons/ri';
 
 const Sidebar = () => {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   return (
     <SidebarWrapper>
