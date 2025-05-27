@@ -84,6 +84,58 @@ html {
   --header-height: 70px;
 }
 
+/* 👇🏽 Font Sizes */
+.fnt-10 {
+  font-size: var(--font-10);
+}
+
+.fnt-11 {
+  font-size: var(--font-11);
+}
+
+.fnt-12 {
+  font-size: var(--font-12);
+}
+
+.fnt-13 {
+  font-size: var(--font-13);
+}
+
+.fnt-14 {
+  font-size: var(--font-14);
+}
+
+.fnt-15 {
+  font-size: var(--font-15);
+}
+.fnt-16 {
+  font-size: var(--font-16);
+}
+.fnt-17 {
+  font-size: var(--font-17);
+}
+.fnt-18 {
+  font-size: var(--font-18);
+}
+.fnt-19 {
+  font-size: var(--font-19);
+}
+.fnt-20 {
+  font-size: var(--font-20);
+}
+.fnt-21 {
+  font-size: var(--font-21);
+}
+.fnt-22 {
+  font-size: var(--font-22);
+}
+.fnt-23 {
+  font-size: var(--font-23);
+}
+.fnt-24 {
+  font-size: var(--font-24);
+}
+
 ::selection {
   background: #ff6b9640; /* WebKit/Blink Browsers */
 }
@@ -144,4 +196,14 @@ input[type='file'] {
 
 .text-white-alt {
   color: var(--text-white-alt);
+}
+
+.text-black-alt {
+  color: #5a5959;
+}
+.dot-divider {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background: #5a5959;
 }

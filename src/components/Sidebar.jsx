@@ -28,7 +28,7 @@ const Sidebar = () => {
             </li>
 
             <li>
-              <NavLink to="/expenses" className={({ isActive }) => `app-menu-item ${isActive ? 'active' : ''}`}>
+              <NavLink to="/" className={({ isActive }) => `app-menu-item ${isActive ? 'active' : ''}`}>
                 Expenses
               </NavLink>
             </li>

@@ -16,7 +16,8 @@ const DashboardWrapper = styled('div')`
     border-radius: 20px;
     color: var(--primary);
     margin: 2rem;
-    padding: 2rem;
+    /* padding: 2rem; */
+    overflow-x: hidden;
   }
 `;
 
