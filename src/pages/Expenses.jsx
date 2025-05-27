@@ -1,5 +1,5 @@
 import { profile1, profile2, profile3 } from '../assets/images';
-import { ExpensesInfo } from '../components';
+import { ExpensesInfo, ExpensesTracker } from '../components';
 import { ExpensesWrapper } from '../styleWrappers';
 import { IoAddCircleOutline } from 'react-icons/io5';
 
@@ -33,6 +33,9 @@ const Expenses = () => {
             <header>
               <h3>Where your money go?</h3>
             </header>
+
+            {/* expenses tracker */}
+            <ExpensesTracker />
           </div>
         </div>
       </section>

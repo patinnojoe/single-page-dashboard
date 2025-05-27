@@ -207,3 +207,16 @@ input[type='file'] {
   border-radius: 50%;
   background: #5a5959;
 }
+.progressbar {
+  background-color: #eceff5;
+  height: 6px;
+  border-radius: 3px;
+  width: 100%;
+  overflow: hidden;
+}
+.progressbar .indicator {
+  height: 100%;
+  background-color: #31ba96;
+  width: 20%;
+  display: block;
+}

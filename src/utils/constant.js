@@ -58,3 +58,32 @@ export const expensesData = [
     ],
   },
 ];
+
+export const expensesTrack = [
+  {
+    label: 'Food and Drinks',
+    amount: '87,200',
+    progress: '75%',
+  },
+  {
+    label: 'Transportation',
+    amount: '20,000',
+    progress: '40%',
+  },
+  {
+    label: 'Entertainment',
+    amount: '55,000',
+    progress: '60%',
+  },
+  {
+    label: 'Housing',
+    amount: '25,000',
+    progress: '30%',
+  },
+
+  {
+    label: 'Vehicle',
+    amount: '20,000',
+    progress: '35%',
+  },
+];
