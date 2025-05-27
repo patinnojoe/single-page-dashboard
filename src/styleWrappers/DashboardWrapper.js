@@ -23,7 +23,7 @@ const DashboardWrapper = styled('div')`
   /* mobile media query */
   @media (max-width: 768px) {
     .dashboard-main {
-      margin: 1rem;
+      margin: 2rem 1rem;
     }
   }
 `;
