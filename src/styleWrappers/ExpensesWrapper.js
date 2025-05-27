@@ -11,6 +11,8 @@ const ExpensesWrapper = styled('div')`
     background-color: #f9fafc;
     height: 100%;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
   }
   .expenses-profile {
     display: flex;
@@ -64,6 +66,30 @@ const ExpensesWrapper = styled('div')`
     flex-direction: column;
     font-size: 20px;
     color: #fff;
+  }
+  .expenses-summary-box {
+    background: #edf0f6;
+    border-radius: 10px;
+    position: relative;
+    padding: 2rem 1rem 2rem;
+    overflow: visible;
+  }
+
+  .expenses-summary-footer-img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    pointer-events: none;
+  }
+  .expenses-summary-footer-img img {
+    height: 80px;
+  }
+  .expenses-summary-footer-text {
+    margin-top: 3rem;
   }
 `;
 

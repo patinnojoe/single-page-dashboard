@@ -7,7 +7,7 @@ const ExpensesInfo = () => {
       {expensesData.map((group, groupIndex) => (
         <aside key={groupIndex}>
           <div className="expenses-summary-header">
-            <h3>{group.day}</h3>
+            <h4>{group.day}</h4>
             <PiDotsThreeLight color="#D2DCE8" fontSize={50} />
           </div>
 
@@ -32,7 +32,7 @@ const ExpenseItem = ({ icon: Icon, indicatorColor, title, time, description, amo
           <Icon />
         </span>
         <div>
-          <h5>{title}</h5>
+          <p className="fw-semibold fnt-17">{title}</p>
           <div className="d-flex gap-2 text-black-alt align-items-center">
             <span>{time}</span>
             <span className="dot-divider"></span>
@@ -40,7 +40,7 @@ const ExpenseItem = ({ icon: Icon, indicatorColor, title, time, description, amo
           </div>
         </div>
       </div>
-      <h5>{amount}</h5>
+      <p className="fw-semibold">{amount}</p>
     </aside>
   );
 };

@@ -2,7 +2,7 @@ import { expensesTrack } from '../utils/constant';
 
 const ExpensesTracker = () => {
   return (
-    <div className="d-flex flex-column gap-4">
+    <div className="d-flex flex-column gap-4 w-100">
       {expensesTrack.map((item, index) => (
         <ExpenseTrackItem key={index} {...item} />
       ))}

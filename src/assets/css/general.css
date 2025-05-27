@@ -202,10 +202,12 @@ input[type='file'] {
   color: #5a5959;
 }
 .dot-divider {
-  height: 7px;
-  width: 7px;
-  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
   background: #5a5959;
+  padding: 0.2rem;
+  overflow: hidden;
 }
 .progressbar {
   background-color: #eceff5;
