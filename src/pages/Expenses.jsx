@@ -3,6 +3,7 @@ import { box, flower, profile1, profile2, profile3 } from '../assets/images';
 import { ExpensesInfo, ExpensesTracker } from '../components';
 import { ExpensesWrapper } from '../styleWrappers';
 import { IoAddCircleOutline } from 'react-icons/io5';
+import ExpensesBarChart from '../components/ExpensesBarChart';
 
 const Expenses = () => {
   return (
@@ -24,6 +25,7 @@ const Expenses = () => {
                 <IoAddCircleOutline fontSize={50} color="#D2DCE8" />
               </aside>
             </header>
+            <ExpensesBarChart />
 
             {/* expenses summary */}
             <ExpensesInfo />

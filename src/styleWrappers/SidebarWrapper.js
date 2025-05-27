@@ -68,6 +68,13 @@ const SidebarWrapper = styled('div')`
     gap: 2rem;
     list-style: none;
   }
+
+  /* mobile media query */
+  @media (max-width: 768px){
+    .sidebar{
+      display: none;
+    }
+  }
 `;
 
 export default SidebarWrapper;

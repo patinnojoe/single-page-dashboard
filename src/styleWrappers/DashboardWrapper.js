@@ -19,6 +19,13 @@ const DashboardWrapper = styled('div')`
     /* padding: 2rem; */
     overflow-x: hidden;
   }
+
+  /* mobile media query */
+  @media (max-width: 768px) {
+    .dashboard-main {
+      margin: 1rem;
+    }
+  }
 `;
 
 export default DashboardWrapper;
