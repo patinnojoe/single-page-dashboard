@@ -11,7 +11,7 @@ const Expenses = () => {
       <section className="row h-100">
         <div className="col-lg-8">
           <div className="expenses-detail">
-            <header className="expenses-header mb-5">
+            <header className="expenses-header mb-lg-5 mb-3">
               <aside className="d-flex flex-column gap-1">
                 <h1>Expenses</h1>
                 <p className="text-black-alt">01 - 25 March, 2020</p>
@@ -33,7 +33,7 @@ const Expenses = () => {
         </div>
         <div className="col-lg-4">
           <div className="expenses-summary">
-            <header className="mb-5">
+            <header className="mb-lg-5 mb-3">
               <h3>Where your money go?</h3>
             </header>
 

@@ -27,7 +27,7 @@ export default ExpensesInfo;
 const ExpenseItem = ({ icon: Icon, indicatorColor, title, time, description, amount }) => {
   return (
     <aside className="d-flex align-items-center justify-content-between">
-      <div className="d-flex align-items-center gap-3">
+      <div className="d-flex gap-3">
         <span className="expenses-sumary-item-indicator" style={{ backgroundColor: indicatorColor }}>
           <Icon />
         </span>

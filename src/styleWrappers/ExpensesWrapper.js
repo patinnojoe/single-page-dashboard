@@ -38,7 +38,7 @@ const ExpensesWrapper = styled('div')`
     cursor: pointer;
   }
   .expenses-summary-header svg:hover,
-  .expenses-profile svg:hover {
+  .expenses-profile > svg:hover {
     fill: rgb(13, 17, 22);
     color: rgb(13, 17, 22);
   }
@@ -90,6 +90,45 @@ const ExpensesWrapper = styled('div')`
   }
   .expenses-summary-footer-text {
     margin-top: 3rem;
+  }
+
+  /* media query */
+  @media (max-width: 768px) {
+    .expenses-profile > div img,
+    .expenses-profile > svg {
+      width: 30px;
+      height: 30px;
+    }
+
+    .expenses-profile {
+      gap: unset;
+    }
+
+    .expenses-detail,
+    .expenses-summary {
+      padding: 1rem;
+    }
+    .expenses-summary-header h4 {
+      font-size: 16px;
+    }
+    .expenses-summary-header {
+      margin-bottom: 0.5rem;
+      padding-block: 0.3rem;
+    }
+    .expenses-sumary-item-indicator {
+      width: 30px;
+      height: 30px;
+      font-size: 14px;
+    }
+    .expenses-summary-footer {
+      margin-top: 4rem;
+    }
+    .expenses-summary-footer-img {
+      top: -25px;
+    }
+    .expenses-summary-footer-img img {
+      height: 75px;
+    }
   }
 `;
 
