@@ -42,38 +42,42 @@ const Expenses = () => {
               <ExpensesTracker />
             </div>
 
-            <section className="expenses-summary-footer">
-              <div className="expenses-summary-box">
-                <div className="expenses-summary-footer-img">
-                  <img src={box} />
-                  <img src={flower} alt="" />
-                </div>
-                <div className="expenses-summary-footer-text">
-                  <h3>Save more money</h3>
-                  <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
-                </div>
-                <Button
-                  sx={{
-                    backgroundColor: 'black',
-                    borderRadius: '10px',
-                    color: 'white',
-                    width: '100%',
-                    padding: '1rem',
-                    marginTop: '1rem',
-                    fontSize: '17px',
-                    textAlign: 'center',
-                    '&:hover': {
-                      backgroundColor: '#333',
-                    },
-                  }}
-                  onclick={() => {
-                    console.log('View tips clicked');
-                  }}
-                >
-                  <span>VIEW TIPS</span>
-                </Button>
+            <div className="row">
+              <div className="col-lg-12">
+                <section className="expenses-summary-footer w-100">
+                  <div className="expenses-summary-box">
+                    <div className="expenses-summary-footer-img">
+                      <img src={box} />
+                      <img src={flower} alt="" />
+                    </div>
+                    <div className="expenses-summary-footer-text">
+                      <h3>Save more money</h3>
+                      <p>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                    </div>
+                    <Button
+                      sx={{
+                        backgroundColor: 'black',
+                        borderRadius: '10px',
+                        color: 'white',
+                        width: '100%',
+                        padding: '1rem',
+                        marginTop: '1rem',
+                        fontSize: '17px',
+                        textAlign: 'center',
+                        '&:hover': {
+                          backgroundColor: '#333',
+                        },
+                      }}
+                      onclick={() => {
+                        console.log('View tips clicked');
+                      }}
+                    >
+                      <span>VIEW TIPS</span>
+                    </Button>
+                  </div>
+                </section>
               </div>
-            </section>
+            </div>
           </div>
         </div>
       </section>

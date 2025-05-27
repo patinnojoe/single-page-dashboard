@@ -27,12 +27,15 @@ export default ExpensesInfo;
 const ExpenseItem = ({ icon: Icon, indicatorColor, title, time, description, amount }) => {
   return (
     <aside className="d-flex align-items-center justify-content-between">
-      <div className="d-flex gap-3">
+      <div className="d-flex gap-3 w-100">
         <span className="expenses-sumary-item-indicator" style={{ backgroundColor: indicatorColor }}>
           <Icon />
         </span>
-        <div>
-          <p className="fw-semibold fnt-17">{title}</p>
+        <div className="w-100">
+          <div className="d-flex align-items-center justify-content-between w-100">
+            <p className="fw-semibold fnt-17">{title}</p>
+            <p className="fw-semibold">{amount}</p>
+          </div>
           <div className="d-flex gap-2 text-black-alt align-items-center">
             <span>{time}</span>
             <span className="dot-divider"></span>
@@ -40,7 +43,6 @@ const ExpenseItem = ({ icon: Icon, indicatorColor, title, time, description, amo
           </div>
         </div>
       </div>
-      <p className="fw-semibold">{amount}</p>
     </aside>
   );
 };

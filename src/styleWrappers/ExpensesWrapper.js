@@ -60,12 +60,14 @@ const ExpensesWrapper = styled('div')`
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     font-size: 20px;
     color: #fff;
+    flex-shrink: 0;
+    line-height: 1;
+    padding: 0;
   }
   .expenses-summary-box {
     background: #edf0f6;
